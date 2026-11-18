@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.coinscope.presentation.list.CoinListScreen
+import com.example.coinscope.presentation.navigation.AppNavGraph
 import com.example.coinscope.ui.theme.CoinScopeTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -22,12 +23,13 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             CoinScopeTheme {
-                CoinListScreen(onCoinClick = { /**/ })
+                AppNavGraph()
             }
+        }
 
             }
         }
-    }
+
 
 
 @Composable
