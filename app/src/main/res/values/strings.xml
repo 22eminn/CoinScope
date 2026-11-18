@@ -8,4 +8,6 @@
     <string name="error_message">Məlumat yüklənmədi</string>
     <string name="retry">Yenidən cəhd et</string>
     <string name="no_results">Nəticə tapılmadı</string>
+    <string name="current_price">Cari qiymət</string>
+    <string name="back">Geri</string>
 </resources>
